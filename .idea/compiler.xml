@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DeviceTypeServiceImpl" />
+        <module name="PMeasureCheckServiceImpl" />
+        <module name="UnqualifyServiceImpl" />
+        <module name="TaskServiceImpl" />
+        <module name="WorkServiceImpl" />
+        <module name="ProductServiceImpl" />
+        <module name="DeviceMaintainServiceImpl" />
+        <module name="EmployeeServiceImpl" />
+        <module name="ProcessServiceImpl" />
+        <module name="DepartmentServiceImpl" />
+        <module name="TechnologyPlanServiceImpl" />
+        <module name="DeviceCheckServiceImpl" />
+        <module name="SysServiceImpl" />
+        <module name="PictureServiceImpl" />
+        <module name="DeviceServiceImpl" />
+        <module name="TechnologyServiceImpl" />
+        <module name="DeviceFaultServiceImpl" />
+        <module name="MeasureServiceImpl" />
+        <module name="FCountCheckServiceImpl" />
+        <module name="MaterialServiceImpl" />
+        <module name="PermissionServiceImpl" />
+        <module name="CustomServiceImpl" />
+        <module name="MaterialConsumeServiceImpl" />
+        <module name="UserServiceImpl" />
+        <module name="MaterialReceiveServiceImpl" />
+        <module name="PCountCheckServiceImpl" />
+        <module name="OrderServiceImpl" />
+        <module name="RoleServiceImpl" />
+        <module name="ManufactureServiceImpl" />
+        <module name="gateway" />
+        <module name="FileServiceImpl" />
+        <module name="TechnologyRequirementServiceImpl" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CustomServiceImpl" options="-parameters" />
+      <module name="DepartmentServiceImpl" options="-parameters" />
+      <module name="DeviceCheckServiceImpl" options="-parameters" />
+      <module name="DeviceFaultServiceImpl" options="-parameters" />
+      <module name="DeviceMaintainServiceImpl" options="-parameters" />
+      <module name="DeviceServiceImpl" options="-parameters" />
+      <module name="DeviceTypeServiceImpl" options="-parameters" />
+      <module name="EmployeeServiceImpl" options="-parameters" />
+      <module name="FCountCheckServiceImpl" options="-parameters" />
+      <module name="FileServiceImpl" options="-parameters" />
+      <module name="ManufactureServiceImpl" options="-parameters" />
+      <module name="MaterialConsumeServiceImpl" options="-parameters" />
+      <module name="MaterialReceiveServiceImpl" options="-parameters" />
+      <module name="MaterialServiceImpl" options="-parameters" />
+      <module name="MeasureServiceImpl" options="-parameters" />
+      <module name="OrderServiceImpl" options="-parameters" />
+      <module name="PCountCheckServiceImpl" options="-parameters" />
+      <module name="PMeasureCheckServiceImpl" options="-parameters" />
+      <module name="PermissionServiceImpl" options="-parameters" />
+      <module name="PictureServiceImpl" options="-parameters" />
+      <module name="ProcessServiceImpl" options="-parameters" />
+      <module name="ProductServiceImpl" options="-parameters" />
+      <module name="RoleServiceImpl" options="-parameters" />
+      <module name="SysServiceImpl" options="-parameters" />
+      <module name="TaskServiceImpl" options="-parameters" />
+      <module name="TechnologyPlanServiceImpl" options="-parameters" />
+      <module name="TechnologyRequirementServiceImpl" options="-parameters" />
+      <module name="TechnologyServiceImpl" options="-parameters" />
+      <module name="UnqualifyServiceImpl" options="-parameters" />
+      <module name="UserServiceImpl" options="-parameters" />
+      <module name="WorkServiceImpl" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

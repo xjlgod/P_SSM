@@ -1,0 +1,134 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: PMeasureCheckServiceImpl
+        uri: lb://PMeasureCheckServiceImpl
+        predicates:
+          - Path=/PMeasureCheckServiceImpl/**
+        - id: PictureServiceImpl
+        uri: lb://PictureServiceImpl
+        predicates:
+          - Path=/PictureServiceImpl/**
+        - id: ProcessServiceImpl
+        uri: lb://ProcessServiceImpl
+        predicates:
+          - Path=/ProcessServiceImpl/**
+        - id: MeasureServiceImpl
+        uri: lb://MeasureServiceImpl
+        predicates:
+          - Path=/MeasureServiceImpl/**
+        - id: SysServiceImpl
+        uri: lb://SysServiceImpl
+        predicates:
+          - Path=/SysServiceImpl/**
+        - id: CustomServiceImpl
+        uri: lb://CustomServiceImpl
+        predicates:
+          - Path=/CustomServiceImpl/**
+        - id: PermissionServiceImpl
+        uri: lb://PermissionServiceImpl
+        predicates:
+          - Path=/PermissionServiceImpl/**
+        - id: DeviceServiceImpl
+        uri: lb://DeviceServiceImpl
+        predicates:
+          - Path=/DeviceServiceImpl/**
+        - id: FCountCheckServiceImpl
+        uri: lb://FCountCheckServiceImpl
+        predicates:
+          - Path=/FCountCheckServiceImpl/**
+        - id: UserServiceImpl
+        uri: lb://UserServiceImpl
+        predicates:
+          - Path=/UserServiceImpl/**
+        - id: MaterialReceiveServiceImpl
+        uri: lb://MaterialReceiveServiceImpl
+        predicates:
+          - Path=/MaterialReceiveServiceImpl/**
+        - id: MaterialConsumeServiceImpl
+        uri: lb://MaterialConsumeServiceImpl
+        predicates:
+          - Path=/MaterialConsumeServiceImpl/**
+        - id: EmployeeServiceImpl
+        uri: lb://EmployeeServiceImpl
+        predicates:
+          - Path=/EmployeeServiceImpl/**
+        - id: RoleServiceImpl
+        uri: lb://RoleServiceImpl
+        predicates:
+          - Path=/RoleServiceImpl/**
+        - id: PCountCheckServiceImpl
+        uri: lb://PCountCheckServiceImpl
+        predicates:
+          - Path=/PCountCheckServiceImpl/**
+        - id: TaskServiceImpl
+        uri: lb://TaskServiceImpl
+        predicates:
+          - Path=/TaskServiceImpl/**
+        - id: TechnologyPlanServiceImpl
+        uri: lb://TechnologyPlanServiceImpl
+        predicates:
+          - Path=/TechnologyPlanServiceImpl/**
+        - id: DeviceMaintainServiceImpl
+        uri: lb://DeviceMaintainServiceImpl
+        predicates:
+          - Path=/DeviceMaintainServiceImpl/**
+        - id: TechnologyRequirementServiceImpl
+        uri: lb://TechnologyRequirementServiceImpl
+        predicates:
+          - Path=/TechnologyRequirementServiceImpl/**
+        - id: TechnologyServiceImpl
+        uri: lb://TechnologyServiceImpl
+        predicates:
+          - Path=/TechnologyServiceImpl/**
+        - id: DeviceTypeServiceImpl
+        uri: lb://DeviceTypeServiceImpl
+        predicates:
+          - Path=/DeviceTypeServiceImpl/**
+        - id: FileServiceImpl
+        uri: lb://FileServiceImpl
+        predicates:
+          - Path=/FileServiceImpl/**
+        - id: DeviceCheckServiceImpl
+        uri: lb://DeviceCheckServiceImpl
+        predicates:
+          - Path=/DeviceCheckServiceImpl/**
+        - id: MaterialServiceImpl
+        uri: lb://MaterialServiceImpl
+        predicates:
+          - Path=/MaterialServiceImpl/**
+        - id: ProductServiceImpl
+        uri: lb://ProductServiceImpl
+        predicates:
+          - Path=/ProductServiceImpl/**
+        - id: UnqualifyServiceImpl
+        uri: lb://UnqualifyServiceImpl
+        predicates:
+          - Path=/UnqualifyServiceImpl/**
+        - id: WorkServiceImpl
+        uri: lb://WorkServiceImpl
+        predicates:
+          - Path=/WorkServiceImpl/**
+        - id: OrderServiceImpl
+        uri: lb://OrderServiceImpl
+        predicates:
+          - Path=/OrderServiceImpl/**
+        - id: DeviceFaultServiceImpl
+        uri: lb://DeviceFaultServiceImpl
+        predicates:
+          - Path=/DeviceFaultServiceImpl/**
+        - id: ManufactureServiceImpl
+        uri: lb://ManufactureServiceImpl
+        predicates:
+          - Path=/ManufactureServiceImpl/**
+        - id: DepartmentServiceImpl
+        uri: lb://DepartmentServiceImpl
+        predicates:
+          - Path=/DepartmentServiceImpl/**

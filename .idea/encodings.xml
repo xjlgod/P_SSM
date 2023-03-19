@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CustomServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DepartmentServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeviceCheckServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeviceFaultServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeviceMaintainServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeviceServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeviceTypeServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmployeeServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FCountCheckServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ManufactureServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MaterialConsumeServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MaterialReceiveServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MaterialServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MeasureServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PCountCheckServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PMeasureCheckServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PictureServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ProcessServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ProductServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RoleServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SysServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TaskServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TechnologyPlanServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TechnologyRequirementServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TechnologyServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UnqualifyServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UserServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WorkServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

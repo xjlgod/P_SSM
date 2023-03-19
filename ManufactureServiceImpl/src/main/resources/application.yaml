@@ -1,0 +1,31 @@
+server:
+  port: yourPort
+spring:
+  application:
+    name: ManufactureServiceImpl
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      eager: true
+      web-context-unify: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/database?useSSL=false
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.msa.coder.subordinate.entity
+  configuration:
+    map-underscore-to-camel-case: true
+feign:
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+  sentinel:
+    enabled: true
+
+
